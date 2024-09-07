@@ -85,6 +85,7 @@
     }
 
     .weather {
+        width: 80% !important;
         place-self: center;
         padding: 15px !important;
         border-radius: 10px !important;
@@ -102,6 +103,7 @@
     }
     
     .search-bar input {
+        width: 80%;
         height: 35px !important;
         border: none;
         outline: none;
