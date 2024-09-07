@@ -40,7 +40,6 @@ function Weather() {
 
         try {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=4813562fbd2c2b20d1e193aed4683f77`
-            // const url = `4813562fbd2c2b20d1e193aed4683f77`
             const response = await fetch(url)
             const data = await response.json();
 
@@ -66,7 +65,7 @@ function Weather() {
     }
 
     useEffect(() => {
-        search("London")
+        search("Patna")
     }, [])
 
   return (
